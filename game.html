@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DRAG AND DROP</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script scr="main.js" defer></script>
+</head>
+<body>
+
+<audio controls loop autoplay>  
+        <source src="remix.mp3" type="audio/mp3"/>
+    </audio>
+ <nav>
+            <div class="wrapper">
+                <div class="logo"><a href=''>Drag and Drop (20082010184-20082010186)</a></div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#play">Play</a> </li>
+                        <li><a href="#next">Next</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <section id="home">
+                <img src="https://img.freepik.com/free-vector/border-template-design-with-cute-animals_1308-35101.jpg?t=st=1649782087~exp=1649782687~hmac=62294e4f4e9fb0cacc5ad3e068d46af3135434c1a08da6a88d20c7107f9334b0&w=740" width="100%" height="650"/>
+                    
+                </div>
+            </section>
+  
+  <section id="play">
+  <div class="kolom">
+  <section class="draggable-elements">
+    <i class="fa-solid fa-cat draggable" style="color: maroon;" id="cat"></i>
+    <i class="fa-solid fa-dog draggable" style="color: blue;" id="dog"></i>
+    <i class="fa-solid fa-dove draggable" style="color: yellow;" id="dove"></i>
+    <i class="fa-solid fa-fish draggable" style="color: purple;" id="fish"></i>
+    <i class="fa-solid fa-frog draggable" style="color: green;" id="frog"></i>
+  </section>
+  <section class="droppable-elements">
+    <div class="droppable" data-draggable-id="frog"><span>Frog</span></div>
+    <div class="droppable" data-draggable-id="dove"><span>Bird</span></div>
+    <div class="droppable" data-draggable-id="cat"><span>Cat</span></div>
+    <div class="droppable" data-draggable-id="fish"><span>Fish</span></div>
+    <div class="droppable" data-draggable-id="dog"><span>Dog</span></div>
+  </section>
+  </section>
+            <section id="next">
+                <div class="kolom">
+                    <section class="draggable-elements">
+    <i class="fa-solid fa-elephant draggable" style="color: maroon;" id="elephant"></i>
+    <i class="fa-solid fa-shrimp draggable" style="color: blue;" id="shrimp"></i>
+    <i class="fa-solid fa-whale draggable" style="color: yellow;" id="whale"></i>
+    <i class="fa-solid fa-squid draggable" style="color: purple;" id="squid"></i>
+    <i class="fa-solid fa-cow draggable" style="color: green;" id="cow"></i>
+  </section>
+  <section class="droppable-elements">
+    <div class="droppable" data-draggable-id="cow"><span>Cow</span></div>
+    <div class="droppable" data-draggable-id="shrimp"><span>Shrimp</span></div>
+    <div class="droppable" data-draggable-id="whale"><span>Whale</span></div>
+    <div class="droppable" data-draggable-id="squid"><span>Squid</span></div>
+    <div class="droppable" data-draggable-id="elephant"><span>Elephant</span></div>
+  </section>
+
+</body>
+</html>
